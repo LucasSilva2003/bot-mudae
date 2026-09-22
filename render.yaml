@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: bot-mudae
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_mudae.py
